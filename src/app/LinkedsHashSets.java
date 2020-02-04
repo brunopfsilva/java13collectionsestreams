@@ -1,9 +1,7 @@
 package app;
 
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
-import java.util.Set;
 
 public class LinkedsHashSets {
     
@@ -37,12 +35,12 @@ public class LinkedsHashSets {
 
         }
         
-        for (Integer notas : sequenciaNumeros) {
-            System.out.println(notas);
+        for (Integer sequencia : sequenciaNumeros) {
+            System.out.println(sequencia);
         }
 
 
-        //retorna true ou false
+        //retorna true ou false para vazio
         System.out.println(sequenciaNumeros.isEmpty());
 
     }
